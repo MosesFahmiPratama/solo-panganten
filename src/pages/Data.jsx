@@ -16,7 +16,7 @@ const Data = () => {
     const getdataSumbangan = async () => {
         try {
             let response = await fetch(
-                `${Domain}/api/sumbanganPesta`,
+                `${Domain}/API/sumbanganPesta`,
                 {
                     method: "GET",
                     headers: {
@@ -38,7 +38,7 @@ const Data = () => {
     }, []);
 
     const printSumbangan = () => {
-        window.location.href = `${Domain}/api/print-sumbangan`;
+        window.location.href = `${Domain}/API/print-sumbangan`;
     }
 
     return (

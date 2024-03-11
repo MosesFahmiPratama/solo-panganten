@@ -79,7 +79,7 @@ const ModalEditData = ({
     const getOneDataSumbangan = async () => {
         try {
             let response = await fetch(
-                `${Domain}/api/sumbanganPesta/${idDataSumbangan}`,
+                `${Domain}/API/sumbanganPesta/${idDataSumbangan}`,
                 {
                     method: "GET",
                 }
@@ -102,7 +102,7 @@ const ModalEditData = ({
 
         try {
             let response = await fetch(
-                `${Domain}/api/sumbanganPesta/${idDataSumbangan}`,
+                `${Domain}/API/sumbanganPesta/${idDataSumbangan}`,
                 {
                     method: "PUT",
                     headers: {

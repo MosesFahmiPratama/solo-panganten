@@ -66,7 +66,7 @@ const ModalAddData = ({ activeModalAdd, setActiveModalAdd, getdataSumbangan }) =
 
         const dataForm = new FormData(formRef.current);
         try {
-            let response = await fetch(`${Domain}/api/sumbanganPesta`, {
+            let response = await fetch(`${Domain}/API/sumbanganPesta`, {
                 method: "POST",
                 body: dataForm,
             });

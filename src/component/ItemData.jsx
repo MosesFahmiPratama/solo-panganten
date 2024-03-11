@@ -36,7 +36,7 @@ const ItemData = ({
         if (confirm) {
             try {
                 let response = await fetch(
-                    `${Domain}/api/sumbanganPesta/${id}`,
+                    `${Domain}/API/sumbanganPesta/${id}`,
                     {
                         method: "DELETE",
                     }
