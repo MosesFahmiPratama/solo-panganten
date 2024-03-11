@@ -30,6 +30,7 @@ const DATA_EDIT = {
     gula: "",
     beras: "",
     jenis_beras: "",
+    amplop: "",
 };
 
 const ModalEditData = ({
